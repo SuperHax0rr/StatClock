@@ -70,3 +70,33 @@ The firmware is written in:
 - C++
 - Arduino framework
 - ESP32 Arduino core
+
+Main functionality includes:
+
+- Custom software I2C implementation
+- SSD1306 initialization
+- Direct SSD1306 commands
+- Bitmap rendering
+- Image rotation
+- Wi-Fi connection
+- HTTP web server
+- Remote LCD control
+- Remote OLED image selection
+- Time synchronization
+- Local time keeping between synchronizations
+
+---
+
+# Image System
+
+Images are stored directly inside the ESP32 firmware as monochrome 128×64 bitmap arrays.
+
+The ESP32 does not need to download the images from the computer.
+
+The browser interface only tells the ESP32 which already-stored image to display.
+
+# Web Interface
+
+StatClock contains a web interface hosted by the ESP32.
+
+When the ESP32 is connected to Wi-Fi, the interface can be accessed using the ESP32's local IP address.
