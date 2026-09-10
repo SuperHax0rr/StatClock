@@ -3,6 +3,10 @@ An IoT-based ESP32 clock/status system with 4 OLED displays, 16×2 LCD, Wi-Fi co
 
 The project started as a dedicated clock/status system, but is designed to be expandable into a small standalone ESP32 computer with additional input modules, sensors, buttons, and other hardware.
 
+<p align="center">
+  <img src="images/statclkmain.jpeg" width="700">
+</p>
+
 ---
 
 ## Overview
@@ -63,6 +67,24 @@ OLED address:
 
 ---
 
+## Hardware
+
+<p align="center">
+  <img src="images/f1.jpeg" width="600">
+</p>
+
+<p align="center">
+  <img src="images/f2.jpeg" width="600">
+</p>
+
+<p align="center">
+  <img src="images/side_view.jpeg" width="600">
+</p>
+
+<p align="center">
+  <img src="images/side_v2.jpeg" width="600">
+</p>
+
 # Software
 
 The firmware is written in:
@@ -87,6 +109,14 @@ Main functionality includes:
 
 ---
 
+Epic wire Management:
+
+## Wiring
+
+<p align="center">
+  <img src="images/wire_management.jpeg" width="700">
+</p>
+
 # Image System
 
 Images are stored directly inside the ESP32 firmware as monochrome 128×64 bitmap arrays.
@@ -100,3 +130,11 @@ The browser interface only tells the ESP32 which already-stored image to display
 StatClock contains a web interface hosted by the ESP32.
 
 When the ESP32 is connected to Wi-Fi, the interface can be accessed using the ESP32's local IP address.
+
+<p align="center">
+  <img src="images/inta1.jpeg" width="700">
+</p>
+
+<p align="center">
+  <img src="images/inta2.jpeg" width="700">
+</p>
