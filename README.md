@@ -67,7 +67,7 @@ OLED address:
 
 ---
 
-## Hardware
+## Hardware Photos
 
 <p align="center">
   <img src="images/f1.jpeg" width="600">
@@ -130,6 +130,7 @@ The browser interface only tells the ESP32 which already-stored image to display
 StatClock contains a web interface hosted by the ESP32.
 
 When the ESP32 is connected to Wi-Fi, the interface can be accessed using the ESP32's local IP address.
+The interface is designed to be linear so it looks good on both desktop and mobile.
 
 <p align="center">
   <img src="images/inta1.jpeg" width="700">
