@@ -93,6 +93,8 @@ The firmware is written in:
 - Arduino framework
 - ESP32 Arduino core
 
+---
+
 Main functionality includes:
 
 - Custom software I2C implementation
@@ -109,9 +111,7 @@ Main functionality includes:
 
 ---
 
-Epic wire Management:
-
-## Wiring
+## Epic wire Management:
 
 <p align="center">
   <img src="images/wire_management.jpeg" width="700">
