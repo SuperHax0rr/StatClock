@@ -9,8 +9,8 @@
 // WIFI
 // =====================================================
 
-const char* WIFI_SSID = "SSVR214_2.4G";
-const char* WIFI_PASSWORD = "kaushal_72";
+const char* WIFI_SSID = "......";
+const char* WIFI_PASSWORD = "......";
 
 
 // =====================================================
