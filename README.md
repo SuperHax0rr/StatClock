@@ -70,10 +70,6 @@ OLED address:
 ## Hardware Photos
 
 <p align="center">
-  <img src="images/f1.jpeg" width="600">
-</p>
-
-<p align="center">
   <img src="images/f2.jpeg" width="600">
 </p>
 
