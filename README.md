@@ -103,12 +103,6 @@ Main functionality includes:
 
 ---
 
-## Epic wire Management:
-
-<p align="center">
-  <img src="images/wire_management.jpeg" width="700">
-</p>
-
 # Image System
 
 Images are stored directly inside the ESP32 firmware as monochrome 128×64 bitmap arrays.
