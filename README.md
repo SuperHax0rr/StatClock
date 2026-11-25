@@ -4,10 +4,10 @@ An IoT-based ESP32 clock/status system with 4 OLED displays, 16×2 LCD, Wi-Fi co
 The project started as a dedicated clock/status system, but is designed to be expandable into a small standalone ESP32 computer with additional input modules, sensors, buttons, and other hardware.
 
 <p align="center">
-  <img src="images/statclkmain.jpeg" width="700">
+  <img src="images/statclkm1.jpeg" width="700">
 </p>
 <p align="center">
-  <img src="images/statclkmain2.jpeg" width="700">
+  <img src="images/statclkm.jpeg" width="700">
 </p>
 
 ---
