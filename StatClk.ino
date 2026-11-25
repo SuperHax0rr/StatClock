@@ -9,8 +9,8 @@
 // WIFI
 // =====================================================
 
-const char* WIFI_SSID = "SSVR214_2.4G";
-const char* WIFI_PASSWORD = "kaushal_72";
+const char* WIFI_SSID = "placeholder";
+const char* WIFI_PASSWORD = "placeholder";
 
 
 // =====================================================
@@ -31,10 +31,7 @@ WebServer server(80);
 
 // =====================================================
 // OLED 1 IMAGES
-//
-// Replace each placeholder with your 128x64 bitmap.
-//
-// Each image must contain 1024 bytes.
+// replace with your 128x64 bitmap data here 
 // =====================================================
 
 const uint8_t oled1Image1[] PROGMEM = {
@@ -240,10 +237,9 @@ const uint8_t oled1Image3[] PROGMEM = {
 
 // -----------------------------------------------------
 // OLED 1 - Image 4 and 5 placeholders
-// Paste your own 128x64 bitmap data into these arrays.
 // -----------------------------------------------------
+//The Eyes
 
-// 'vector-eye-icon-bit-pixel-eps-illustration-91406828', 128x64px
 const uint8_t oled1Image4[] PROGMEM = {
 	0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 
 	0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 
@@ -313,7 +309,7 @@ const uint8_t oled1Image4[] PROGMEM = {
 
 
 const uint8_t oled1Image5[] PROGMEM = {
-// TODO: paste your 128x64 bitmap data here (1024 bytes total)
+// replace with your 128x64 bitmap data here 
 	0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 
 	0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 
 	0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 
@@ -383,8 +379,7 @@ const uint8_t oled1Image5[] PROGMEM = {
 
 // =====================================================
 // OLED 4 IMAGES
-//
-// Replace each placeholder with your 128x64 bitmap.
+// replace with your 128x64 bitmap data here 
 // =====================================================
 
 const uint8_t oled4Image1[] PROGMEM = {
@@ -589,9 +584,10 @@ const uint8_t oled4Image3[] PROGMEM = {
 };
 
 // -----------------------------------------------------
-// OLED 4 - Image 4 and 5 placeholders
-// Paste your own 128x64 bitmap data into these arrays.
+// OLED 4 - replace with your 128x64 bitmap data here 
 // -----------------------------------------------------
+//The Eyes
+
 
 const uint8_t oled4Image4[] PROGMEM = {
 	0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 
@@ -661,7 +657,7 @@ const uint8_t oled4Image4[] PROGMEM = {
 };
 
 const uint8_t oled4Image5[] PROGMEM = {
-// TODO: paste your 128x64 bitmap data here (1024 bytes total)
+// replace with your 128x64 bitmap data here 
 	0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0xfb, 0x00, 0x00, 0x00, 0x00, 
 	0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x7a, 0x00, 0x00, 0x00, 0x00, 
 	0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x7f, 0xf0, 0x00, 0x00, 0x00, 
@@ -727,10 +723,6 @@ const uint8_t oled4Image5[] PROGMEM = {
 	0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 
 	0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
 };
-
-
-
-
 
 // =====================================================
 // SOFTWARE I2C CLASS
@@ -1044,10 +1036,6 @@ unsigned long lastTemperatureUpdate = 0;
 
 String lcdLine1 = "ESP32 DISPLAY";
 String lcdLine2 = "CONNECTED";
-
-// Set to true once the user has manually set the LCD
-// (either a single message or a cycling list). Until
-// then, the LCD keeps showing the WiFi IP address.
 bool lcdUserSet = false;
 
 // =====================================================
@@ -1164,14 +1152,6 @@ void advanceTime() {
 
 // =====================================================
 // UPDATE OLED 2
-//
-// Large hour
-// Small date underneath
-//
-// Example:
-//
-//       14
-//   10/09/2026
 // =====================================================
 
 void updateOLED2() {
@@ -1186,9 +1166,7 @@ void updateOLED2() {
 
 
 // =====================================================
-// SIMPLE OLED TEXT RENDERING
-//
-// 5x7 font
+// OLED TEXT RENDERING
 // =====================================================
 
 const uint8_t font5x7[][5] PROGMEM = {
@@ -1497,14 +1475,6 @@ void refreshOLED2() {
 
 // =====================================================
 // OLED 3 DISPLAY
-//
-// Large minutes
-// Small temperature underneath
-//
-// Example:
-//
-//       37
-//      24°C
 // =====================================================
 
 void refreshOLED3() {
@@ -1833,11 +1803,6 @@ void updateRotatingLCD() {
 
   unsigned long now =
     millis();
-
-
-  // Show each message fully and instantly, then just wait
-  // out the interval before swapping straight to the next
-  // one - no per-character typing or erasing.
 
   if (now - lastLCDChange < LCD_INTERVAL) {
     return;
@@ -2873,10 +2838,6 @@ void handleLCD() {
       server.arg("line2");
   }
 
-
-  // Make absolutely sure the lines
-  // don't exceed 16 characters.
-
   if (lcdLine1.length() > 16) {
 
     lcdLine1 =
@@ -2979,10 +2940,6 @@ void handleLCDCycle() {
   lcdUserSet = true;
 
   lcdCycleIndex = 0;
-
-
-  // Show the first message immediately, in full, then let
-  // updateRotatingLCD() swap to the next one after LCD_INTERVAL.
 
   lcdLine1 = lcdCycleLine1[lcdCycleIndex];
 
@@ -3359,10 +3316,6 @@ void setup() {
 
   refreshOLED3();
 
-
-  // The LCD keeps showing "WiFi Connected" + IP address
-  // (printed above) until the user sets LCD content from
-  // the web interface, since lcdUserSet is still false.
 }
 
 
