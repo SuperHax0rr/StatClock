@@ -6,6 +6,9 @@ The project started as a dedicated clock/status system, but is designed to be ex
 <p align="center">
   <img src="images/statclkmain.jpeg" width="700">
 </p>
+<p align="center">
+  <img src="images/statclkmain2.jpeg" width="700">
+</p>
 
 ---
 
