@@ -9,8 +9,8 @@
 // WIFI
 // =====================================================
 
-const char* WIFI_SSID = "SSVR214_2.4G";
-const char* WIFI_PASSWORD = "kaushal_72";
+const char* WIFI_SSID = "";
+const char* WIFI_PASSWORD = "";
 
 
 // =====================================================
@@ -31,9 +31,6 @@ WebServer server(80);
 
 // =====================================================
 // OLED 1 IMAGES
-//
-// Replace each placeholder with your 128x64 bitmap.
-//
 // Each image must contain 1024 bytes.
 // =====================================================
 
